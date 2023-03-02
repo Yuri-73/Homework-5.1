@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
        task1();
@@ -7,8 +6,7 @@ public class Main {
        task3();
        task4();
     }
-    // Объявить метод «сгенерироватьМассив»
-    public static int[] generateRandomArray() {
+    public static int[] generateRandomArray() {  // Объявить метод «сгенерироватьМассив»
        java.util.Random random = new java.util.Random();
        int[] arr = new int[30];
        for (int i = 0; i < arr.length; i++) {
